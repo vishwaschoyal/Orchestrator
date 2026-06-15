@@ -57,14 +57,8 @@ class ReportPlan(BaseModel):
 class State(TypedDict):
     topic: str
     report_plan: list[ReportPart]
-
-    # Multiple workers will return draft_parts at the same time.
-    # operator.add tells LangGraph:
-    # "Do not overwrite the list. Add all returned lists together."
     draft_parts: Annotated[list[str], operator.add]
-
     final_report: str
-
 
 class WorkerState(TypedDict):
     topic: str
