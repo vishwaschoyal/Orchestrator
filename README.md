@@ -70,28 +70,6 @@ orchestrator/
 
 ---
 
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/your-username/orchestrator.git
-cd orchestrator
-```
-
-Install the required dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the project:
-
-```bash
-python main.py
-```
-
----
 
 ## Learning Objectives
 
@@ -116,6 +94,3 @@ This project demonstrates:
 
 ---
 
-## License
-
-This project is intended for learning and educational purposes.
